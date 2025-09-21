@@ -32,7 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-- name: vpnsvideo
+- name: vpns
   type: trojan
   server: 104.17.156.243
   port: 443
@@ -45,7 +45,7 @@ proxies:
     path: /trojan
   headers:
       Host: biznet.vpnstore28.my.id
-- name: Uninetvideo
+- name: Uninet
   type: trojan
   server: 104.17.156.243
   port: 443
@@ -65,8 +65,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - vpnsvideo
-      - Uninetvideo
+      - vpns
+      - Uninet
 
   - name: MIX-X
     type: fallback
