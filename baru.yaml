@@ -65,16 +65,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - vpns
-      - Uninet
+      - vpnsvideo
+      - Uninetvideo
 
   - name: MIX-X
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - vpns
-      - Uninet
+      - vpnsvideo
+      - Uninetvideo
       
   - name: IKLAN
     type: select
