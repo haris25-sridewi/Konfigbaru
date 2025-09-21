@@ -73,8 +73,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - vpnsvideo
-      - Uninetvideo
+      - vpns
+      - Uninet
       
   - name: IKLAN
     type: select
